@@ -9,6 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r}
+## bookdown::publish_book(render = 'local')
+```
+
+
 # Introduction to SQL
 
 This is the introduction to SQL in 01-intro.Rmd
