@@ -1,0 +1,15 @@
+---
+title: "01-intro"
+author: "Martin Schedlbauer"
+date: "5/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+This is the introduction in 01-intro.Rmd
+
