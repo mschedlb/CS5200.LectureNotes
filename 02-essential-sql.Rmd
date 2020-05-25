@@ -1,0 +1,14 @@
+# Essential SQL
+
+Introduction to essential SQL retrieval statements.
+
+```{r echo=FALSE}
+library(DBI)
+library(RSQLite)
+db = dbConnect(RSQLite::SQLite(), dbname = "CoffeeDB.sqlitedb")
+```
+
+```{sql, connection=db}
+SELECT * FROM coffees;
+```
+
